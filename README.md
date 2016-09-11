@@ -1,5 +1,5 @@
 # konfetti-homepage
 
-the homepage of the konfetti project
+The homepage of the Konfetti project.
 
 Part of the Konfetti project: https://github.com/rootzoll/konfetti-app
