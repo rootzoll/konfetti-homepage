@@ -1,0 +1,1 @@
+docker stop konfettiHomepage && docker rm konfettiHomepage && docker build --tag konfetti/homepage . && docker run --name konfettiHomepage -p 8080:80 -d konfetti/homepage

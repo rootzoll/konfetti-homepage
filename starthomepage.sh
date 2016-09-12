@@ -1,0 +1,1 @@
+docker build --tag konfetti/homepage . && docker run -d --name konfettiHomepage -p 8080:80 konfetti/homepage
