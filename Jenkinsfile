@@ -31,5 +31,10 @@ node {
             echo "push image"
             dockerImg.push()
         }
+
+        if (production.equals(branch)) {
+            stage 'Deploy to Production'
+            sh "docker-compose up -d --force-recreate"
+        }
     }
 }

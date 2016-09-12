@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  konfettiHomepage:
+    image: konfetti/homepage
+    ports:
+      - "2001:80"
