@@ -4,4 +4,4 @@ services:
   konfettiHomepage:
     image: konfetti/homepage
     ports:
-      - "2001:80"
+      - "80:80"
