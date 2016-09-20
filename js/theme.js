@@ -87,7 +87,9 @@ $("#owl-intro-text").owlCarousel({
     stopOnHover : true,
     navigation : false,
     navigationText : false,
-    pagination : true
+    pagination : true,
+    touchDrag : false,
+    mouseDrag : false
 })
 
 
