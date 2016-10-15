@@ -95,7 +95,7 @@ $("#owl-intro-text").owlCarousel({
 
 // Partner carousel
 $("#owl-partners").owlCarousel({
-    items : 4,
+    items : 3,
     itemsDesktop : [1199,3],
     itemsDesktopSmall : [980,2],
     itemsTablet: [768,2],
