@@ -10,19 +10,22 @@
     },
 
 	"headernav-howitworks": "Wie gehts",
-	"headernav-app": "Konfetti App",
+	"headernav-app": "App nutzen",
 	"headernav-about": "Hintergrund",
-	"headernav-team": "Team",
+	"headernav-team": "Mitmachen",
 	"headernav-partners": "Partner",
-	"headernav-join": "Mitmachen",
+	"headernav-newsletter": "Newsletter",
 
 	"android": "Android",
  	"iphone": "iPhone",   
 	"newsletter": "Newsletter",
 	"facebook": "Facebook",
 
-	"welcomeslides-a-headline": "Karma für die Nachbarschaft",
+	"welcomeslides-a-headline": "Karma für eine bessere Nachbarschaft",
 	"welcomeslides-a-button": "Wie es geht",
-	"welcomeslides-b-headline": "App Testen (BETA)",
-	"welcomeslides-c-headline": "Mach mit"
+	"welcomeslides-b-headline": "Verbindet alte und neue Nachbarn",
+	"welcomeslides-b-button": "KonfettiApp ausprobieren",
+	"welcomeslides-c-headline": "Mach mit",
+	"welcomeslides-c-button1": "Team",
+	"welcomeslides-c-button2": "Newsletter"
 }

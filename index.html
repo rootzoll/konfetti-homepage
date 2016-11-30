@@ -82,15 +82,15 @@ TODOS:
                             <li><a class="page-scroll" href="#services-section" data-i18n="headernav-about">About</a></li> 
 
                             <li><a class="page-scroll" href="#cta-section" 
-                            data-i18n="headernav-app">Konfetti App</a></li>
+                            data-i18n="headernav-app">Use the App</a></li>
 
                             <li><a class="page-scroll" href="#about-section" data-i18n="headernav-howitworks">How it works</a></li>
 
-                            <li><a class="page-scroll" href="#team-section" data-i18n="headernav-team">Team</a></li> 
+                            <li><a class="page-scroll" href="#team-section" data-i18n="headernav-team">Join</a></li> 
                                                         
                             <li><a class="page-scroll" href="#partners-section" data-i18n="headernav-partners">Partners</a></li> 
 
-                            <li><a class="page-scroll" href="#social-section" data-i18n="headernav-join">Join</a></li> 
+                            <li><a class="page-scroll" href="#contact-section" data-i18n="headernav-newsletter">Newsletter</a></li> 
 
                             <li style="min-width:60px;"><a class="page-scroll" href="https://github.com/rootzoll/konfetti-app">&nbsp;</a></li>
                         </ul>
@@ -122,13 +122,13 @@ TODOS:
                                 <a class="btn btn-blank" data-i18n="android" href="javascript:alert('Android App needs update. Bookmark mobile browser version until then.');window.location.href ='http://test.konfettiapp.de:2001/desktop.html'" target="_blank"  role="button">Android</a>
                                 <a class="btn btn-blank" data-i18n="iphone" href="javascript:alert('iOS App not ready yet. Bookmark mobile browser version until then.');window.location.href ='http://test.konfettiapp.de:2001/desktop.html'" target="_blank" role="button">iPhone</a>
                                 -->
-                                <a class="btn btn-blank" data-i18n="browserlogin" href="http://test.konfettiapp.de:2001/desktop.html" target="_blank" role="button">Browser Login</a>
+                                <a class="btn btn-blank" data-i18n="welcomeslides-b-button" href="#cta-section"  role="button">Browser Login</a>
 							</div>
 							<div class="item">
                                 <img class="image-scaledown" src="images/group.png" style="margin-bottom: 10px;"/>
 								<h1 data-i18n="welcomeslides-c-headline">Join us</h1>
-								<a class="btn btn-blank" data-i18n="facebook" href="https://www.facebook.com/konfetti4change" target="_blank" role="button">Facebook</a>
-                                <a class="btn btn-blank" data-i18n="newsletter" href="#contact-section"  role="button">Newsletter</a>
+								<a class="btn btn-blank" data-i18n="welcomeslides-c-button1" href="#team-section" role="button">Team</a>
+                                <a class="btn btn-blank" data-i18n="welcomeslides-c-button2" href="#contact-section"  role="button">Newsletter</a>
 							</div>
 						</div>
 
@@ -197,9 +197,9 @@ TODOS:
                 <div class="page-header-wrapper">
                     <div class="container">
                         <div class="page-header text-center wow fadeIn" data-wow-delay="0.2s">
-                            <h2 data-i18n="app-headline">Konfetti App (BETA)</h2>
+                            <h2 data-i18n="app-headline">Use the app</h2>
                             <div class="devider"></div>
-                            <p class="subtitle" data-i18n="app-subline">download the konfetti app for your  smartphone or run it on a desktop browser</p>
+                            <p class="subtitle" data-i18n="app-subline">...</p>
                         </div>
                     </div>
                 </div>
@@ -207,18 +207,28 @@ TODOS:
             	<div class="container">
                 	<div class="row">
                     
-                    	<div class="col-md-12 wow fadeIn" style="padding-bottom: 32px;" data-wow-delay="0.2s">
-                            <p data-i18n="app-pretext">...</p>        
+                    	<div class="col-md-12 wow fadeIn" style="padding-bottom: 32px;" data-wow-delay="0.2s" >
+                            <p data-i18n="app-pretext"  style="text-align: center;">...</p>        
                         </div>
 
-                    	<div class="col-md-9 wow fadeIn" data-wow-delay="0.2s">
+                        <div class="col-md-12 wow fadeIn" style="padding-bottom: 32px;" data-wow-delay="0.2s">
+                            <p data-i18n="app-info"  style="text-align: center;">...</p>        
+                        </div>
+
+                        <div class="col-md-12 wow fadeIn" data-wow-delay="0.2s" style="text-align: center;">
+                        	<div class="cta-btn wow fadeIn" id='openDesktop' data-wow-delay="0.4s" style="vertical-align: middle: text-align: center; margin-top: 10px; padding-top:10px;">
+                                <a class="btn btn-default btn-lg rotate-box-icon-color-action" href="http://test.konfettiapp.de:2001/desktop.html" target="_blank" role="button"><span data-i18n="app-try">Open App</span></a><br>
+                            </div>
+                        </div>
+
+                        <!--
+
+                                                	<div class="col-md-9 wow fadeIn" data-wow-delay="0.2s" style="text-align: center;">
                             <h2><i class="fa fa-mobile" aria-hidden="true"></i> <span data-i18n="app-a-headline">Smartphone</span></h2>
                             <p data-i18n="app-a-text">...</p>        
                         </div>
-
                         <div class="col-md-3 wow fadeIn" data-wow-delay="0.2s">
                         	<div class="cta-btn wow fadeIn" data-wow-delay="0.4s" style="vertical-align: middle: text-align: center; margin-top: 10px; min-height:100px;">
-                                <!--<a class="btn btn-default btn-lg rotate-box-icon-color-action" href="https://play.google.com/store/apps/details?id=de.konfettiapp.app" target="_blank" role="button"><span data-i18n="android">Android</span></a>-->
                                 <a class="btn btn-default btn-lg rotate-box-icon-color-action" href="javascript:alert('Android App needs update. Bookmark mobile browser version until then.');window.location.href ='http://test.konfettiapp.de:2001/desktop.html'" target="_blank" role="button" style="background-color: #e6c5aa !important;"><span data-i18n="android">Android</span></a>
                                 <br>
                         	    <a class="btn btn-default btn-lg rotate-box-icon-color-action" style="margin-top: 20px;background-color: #e6c5aa !important;" href="javascript:alert('iOS App not ready yet. Bookmark mobile browser version until then.');window.location.href ='http://test.konfettiapp.de:2001/desktop.html'" target="_blank" role="button"><span data-i18n="iphone">iPhone</span></a><br>
@@ -235,6 +245,7 @@ TODOS:
                                 <a class="btn btn-default btn-lg rotate-box-icon-color-action" href="http://test.konfettiapp.de:2001/desktop.html" target="_blank" role="button"><span data-i18n="browserlogin">Browser Login</span></a><br>
                             </div>
                         </div>
+                        -->
                         
                     </div> <!-- /.row -->
                 </div> <!-- /.container -->
@@ -589,10 +600,18 @@ TODOS:
 
                     </div>
                     <div class="row">
-                            <div class="col-md-12 wow fadeIn" style="padding-top: 16px; text-align: center;" data-wow-delay="0.1s">
+                            <div class="col-md-12 wow fadeIn" style="padding-top: 32px; padding-bottom: 16px; text-align: center;" data-wow-delay="0.1s">
                                 <p data-i18n="team-aftertext">...</p>        
                             </div>
                     </div> 
+
+                <div class="container">
+                	<ul class="social-list">
+                		<li> <a href="https://www.facebook.com/konfetti4change" target="_blank" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.3s"><span class="rotate-box-icon rotate-box-icon-color3"><i class="fa fa-facebook"></i></span></a></li>
+                		<li> <a href="https://github.com/rootzoll/konfetti-app" target="_blank" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.8s"><span class="rotate-box-icon rotate-box-icon-color3"><i class="fa fa-github"></i></span></a></li>                      
+                        <li> <a href="https://calendar.google.com/calendar/embed?src=konfettiapp%40gmail.com&ctz=Europe/Berlin" target="_blank" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.8s"><span class="rotate-box-icon rotate-box-icon-color3"><i class="fa fa-calendar"></i></span></a></li>  
+                    </ul>
+                </div>
                 </div>  
 
                 <!-- person template
@@ -621,7 +640,60 @@ TODOS:
                 -->
 
             </section>                
+
+                      <!-- contact -->
+			<section id="contact-section" class="page" style="padding-top:12px;">            
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeIn" data-wow-delay="0.2s">
+                            <h2 data-i18n="newsletter-headline">Newsletter</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle" data-i18n="newsletter-subline">or just sign up for our newsletter</p>
+                        </div>
+                    </div>
+                </div>
                 
+                <div class="contact wow bounceInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                    	<div class="row">
+                        
+                            <div style="text-align: center;">
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="https://konfettiapp.us13.list-manage.com/subscribe/post?u=c7986cfa14d4ee07b48f27aa2&amp;id=3976bb7760" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	
+ <div class="mc-field-group">
+	<label for="mce-FNAME" style="width:120px;">First Name </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME" style="color:black;">
+</div>
+<div class="mc-field-group" style="margin-top: 8px">
+	<label for="mce-LNAME" style="width:120px;">Last Name </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME" style="color:black;">
+</div>
+<div class="mc-field-group" style="margin-top: 8px">
+	<label for="mce-EMAIL" style="width:120px;">Email Address </label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="color:black;">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c7986cfa14d4ee07b48f27aa2_3976bb7760" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button rotate-box-icon-color-action" style="
+    color:white; margin-top: 20px; padding: 16px; background-color: #4E7AC7; border-width: 0px; font-size: 120%;"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+                            </div>
+                                                                       
+                        </div>
+                    </div> 
+                    
+                </div>
+            </section>      
                 
             <section id="partners-section">
 
@@ -673,87 +745,6 @@ TODOS:
 				<div class="extra-space-l"></div>
 			</section>
             --> 
-            
-            <!-- social  -->
-			<section id="social-section">
-            
-                <div class="page-header-wrapper">
-                    <div class="container">
-                        <div class="page-header text-center wow fadeIn">
-                            <h2 data-i18n="join-headline">Join Us</h2>
-                            <div class="devider"></div>
-                            <p class="subtitle" data-i18n="join-subline">get the freshest news on facebook, code with us on github and check our calander for meetups</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="container">
-                	<ul class="social-list">
-                		<li> <a href="https://www.facebook.com/konfetti4change" target="_blank" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.3s"><span class="rotate-box-icon rotate-box-icon-color3"><i class="fa fa-facebook"></i></span></a></li>
-                		<li> <a href="https://github.com/rootzoll/konfetti-app" target="_blank" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.8s"><span class="rotate-box-icon rotate-box-icon-color3"><i class="fa fa-github"></i></span></a></li>                      
-                        <li> <a href="https://calendar.google.com/calendar/embed?src=konfettiapp%40gmail.com&ctz=Europe/Berlin" target="_blank" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.8s"><span class="rotate-box-icon rotate-box-icon-color3"><i class="fa fa-calendar"></i></span></a></li>  
-                    </ul>
-                </div>
-                
-            </section>
-                
-            
-                
-            <!-- contact -->
-			<section id="contact-section" class="page text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/map-bg.jpg);">
-            <div class="cover"></div>
-            
-                <div class="page-header-wrapper">
-                    <div class="container">
-                        <div class="page-header text-center wow fadeIn" data-wow-delay="0.2s">
-                            <h2 data-i18n="newsletter-headline">Newsletter</h2>
-                            <div class="devider"></div>
-                            <p class="subtitle" data-i18n="newsletter-subline">or just sign up for our newsletter</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="contact wow bounceInUp" data-wow-delay="0.1s">
-                    <div class="container">
-                    	<div class="row">
-                        
-                            <div style="text-align: center;">
-<!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="https://konfettiapp.us13.list-manage.com/subscribe/post?u=c7986cfa14d4ee07b48f27aa2&amp;id=3976bb7760" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	
- <div class="mc-field-group">
-	<label for="mce-FNAME" style="width:120px;">First Name </label>
-	<input type="text" value="" name="FNAME" class="" id="mce-FNAME" style="color:black;">
-</div>
-<div class="mc-field-group" style="margin-top: 8px">
-	<label for="mce-LNAME" style="width:120px;">Last Name </label>
-	<input type="text" value="" name="LNAME" class="" id="mce-LNAME" style="color:black;">
-</div>
-<div class="mc-field-group" style="margin-top: 8px">
-	<label for="mce-EMAIL" style="width:120px;">Email Address </label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="color:black;">
-</div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c7986cfa14d4ee07b48f27aa2_3976bb7760" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button rotate-box-icon-color-action" style="
-    color:white; margin-top: 20px; padding: 16px; background-color: #4E7AC7; border-width: 0px; font-size: 120%;"></div>
-    </div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
-                            </div>
-                                                                       
-                        </div>
-                    </div> 
-                    
-                </div>
-            </section>
                 
                 
             <!-- footer -->

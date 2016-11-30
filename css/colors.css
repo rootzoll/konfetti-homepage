@@ -161,7 +161,7 @@ a, a:hover, a:focus {
 
 
 /* === CTA Section, Social & Partners === */
-#cta-section, #team-section, #social-section {
+#cta-section, #team-section, #social-section, #contact-section {
 	background: #f8f8f8 url('../../img/pat-bg.png') repeat;
 }
 
@@ -198,20 +198,6 @@ a, a:hover, a:focus {
 .prices .price-box-featured .price-box-ribbon {
 	color: #4E7AC7;
 }
-
-
-
-/* === Contact === */
-#contact-section {
-	background-color: #4E7AC7;
-}
-#contact-section .contact .contact-form button {
-	background-color: #4E7AC7;
-}
-#contact-section .contact .contact-form button:hover {
-	background-color: #7FB2F0;
-}
-
 
 
 /* === Footer === */
