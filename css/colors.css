@@ -11,16 +11,16 @@ a, a:hover, a:focus {
 	color: #254378;
 }
 .navbar-default, .navbar-default.navbar-fixed-top.navbar-shrink {
-  background-color: #565a63;
+  background-color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a {
-	color: #d4e3fd;
+	color: #333333;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav>.active>a {
-	color: #fff !important;
+	color: #333333 !important;
 }
 .navbar-default.navbar-fixed-top.navbar-shrink .navbar-nav > li > a {
-	color: #d4e3fd;
+	color: #908e8e;
 }
 .navbar-default.navbar-shrink .navbar-nav > li > a:hover, .navbar-default.navbar-shrink .navbar-nav > li > a:focus, .navbar-default.navbar-shrink .navbar-nav > li.active > a {
 	color: #fff;
@@ -249,8 +249,8 @@ a, a:hover, a:focus {
 
 /* === To Top === */
 .scrolltotop {
-	color: #3abdee;
-	border: 2px solid #3abdee;
+	color: #7bbf7f;
+	border: 2px solid #7bbf7f;
 }
 
 
@@ -259,7 +259,7 @@ a, a:hover, a:focus {
 @media only screen and (max-width : 767px) {
 
 .navbar-collapse {
-		background-color: #464646;
+		background-color: #efefef;
 		border-color: #fff !important;
 	}
 .navbar-default.navbar-shrink .navbar-nav > li.active > a {
