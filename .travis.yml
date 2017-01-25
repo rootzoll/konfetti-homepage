@@ -1,0 +1,23 @@
+sudo: required
+
+services:
+  - docker
+
+env:
+  global:
+    - secure: "tacwstNqX8URAq0T5enxrGsJiqoHJ5ugMAh4o9xdB8WflJDMyLYvA1+flgAyNWvoe1vr4haSkJJD6eeEJ76kXH52B8z/KlCDwxKDYsmnXkaCVqozYhyi6OYo6coYmhdawaxToDpsE+VFdLdyMs0bobAe4ckXWDVN5deMQ68xwXtZGN4GJnDV0IuOeBRsgcuvgSiJizNd+z14JiSLp3oE7eDmpxq9bw6we0JZ8MU0oNxq2Hdg77nympttWYoqa4HmlwYZIlPxqLLZnZtrQsJgOymiq5GLgOBG17O1VMvLHsLf3jqg7ULAPa6kdYQNcVY4gKkliPJmlxZRbsRxo286mOoffOESESUHs/z57pOVnHOZ6wEcv/mVMA1AaVdphpZAIejPZl9ordHf3eiliNwJrmxK+EXxxHr1oR1t3iHI5wvvmaEAptitu8SILFsC43Vi+PzuCU54Xy1tAT1cc5j3Gc4Gkhrk8xVkY/NbPdA98P+mFYddYO+QkhIZdfAEEBCtLvZylhLS8wsZoLDjzx+yU1oQtaJqgK+UltonXNAkenBYU0NEoI/Tih80x9rrDGiZxI/JG1yv3Y1hiDve+ishv2x59NoTUQ1bX77uM/N/5FWLBJOJUSrqocKjdJm04HUcU+iU8TQYNgal5nLI7mH0vzOTA+IIJI8ZgmLMR6ifkwA="
+    - secure: "Ij5WMK8nnSLG6m2sH69QyGuz7kMJvW87z/uqo7y/FmtctPArlWNyr5F9ho+6j7wOV7R4jlsmf5nMhUUshwAaNtirVdDmlCdFPQ6ki9WfIv/k6qiAR3LFgu0AztU5opKbLU6WKzrO9FCQDXsH395yU18wsFX0Uqx2Wpc5pPvXGdKZH0M+P0u2DczXa6OKxZIHnppIPiVEMTbulwvYlVr14KHNIqcStGT06Cuet+IoaOAhWcMW5C1YE+/ELw/uHN5j3Fxhdb/VlVsidkCfOe+vpItMcljorsB5ly+3UjyaLnE+XUAx24RbePs/YsXL81R+X+Iq7xEJWyx8X9juLrj9CKSaRVgH7x/HFsp7MIC17fpn2/OOTmKlJ7qWm8vUWdQt/3Z1dratbTmXrPsIhRy4KVtecS6tMp4a5v5N44C2+n80hpzBtss4iIXKzNgzbAiLQhBpBpuI4WmORMgXAmdfk/Zfju+KDrNudGUWXRnm4GdyqSM5lYcIhrWvo8ojY3J/aS/eWOJ3FkL9oVb4bg3tCqU6d27Ag+8DZ8Aw26X33tNATlHiK7f42Vf3ZXhz/3weTo9MK8x5JqDPsvOM16fO6Q+1MnovCvjnN2+q5ISEaE/XqkrmNEosa+Gb5z2JUxu2o1BQuillUTOFNcI8dYh52K9EN2gIxyoq6GxU/Zw8Lok="
+    - secure: "Kwch+n9dpD0AdngBiJ4pDCRFf8ijNvc14RbX5KNcIjUDmk3B9SIdCMjg53clmvSLPzirqh7EW65TziBT/3wMJPEV7jVihUCCoVROJBn4BatxuU8PgUDQJUFxZoCpMMMo+ruCK2Wet4HLtj2UFyR0dicwWzt40sr3q/ckY8OF6+oZ3+6Z8b59+GWkacNEJOG4bUW3SZICR47tG/xQDRVL8wjnxDhW8Xtyq4Y4MUAbpHldEEKrbQWilQRtPaujMUeMRRAR3NIINCxmVW8Vp/acenyKOcRYfH5HoXwthA+gCmNKAVjz7p+C6UuqiPzl1ywFPBCmXSD+qF7Rr5mvhqVKgQ6DjLBDNjO+XyOPFiudqabZ2u/uHKQRGu/a4cT8Kzg8ZbEt8XkC47CtXpN4vuW1cdhm8RGGFQ0jI1gNhNb/KOby8/DI+NZVVz5Y8FUGOixByMgJSCIP4HbDeJBbXU1TVjMfrr6hUAOe7Mx168XnEfvPA89STurQegfxjf6oHjbBFaJ4iQ0dWGQ+AjGIiTLuTdvaaBCCiV7IdoZBaRTMOHi8NnXTt277Zn224Ct8dM9gaIK9QA3u0iIzEGfoELNe5UMQna4wB6+yIrENfacY8qhFJlfxxScpmcgrwsYXeUozePR5bcy5ZrQGhxVrsq55lnnGVfetHDgnlF5IaoVYz4A="
+    - COMMIT=${TRAVIS_COMMIT::8}
+    - REPO=konfetti/homepage
+
+script:
+  - docker build -t $REPO .
+
+after_success:
+  - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+  - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH; fi`
+  - docker build -f Dockerfile -t $REPO:$COMMIT .
+  - docker tag $REPO:$COMMIT $REPO:$TAG
+  - docker tag $REPO:$COMMIT $REPO:travis-$TRAVIS_BUILD_NUMBER
+  - docker push $REPO
