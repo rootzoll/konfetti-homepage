@@ -803,7 +803,7 @@ TODOS:
 <div class="polyglot-language-switcher langSelector">
 
     <div id="changelang" class="pls-selected-locale">
-        <img id="localeImage" src="images/flags/gb.png" />
+        <img id="localeImage" src="images/flags/en.png" />
         <span id="localeName">English</span>
         <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
     </div>
@@ -896,13 +896,13 @@ TODOS:
             }
 
             // load i18n translations from json files
-            console.dir($.i18n().load( {
+            $.i18n().load( {
                 en: './i18n/locale-en.json',
                 de: './i18n/locale-de.json'
             } ).done(function(){
                 // tell i18n to refresh/translate all data-i18n parameter elements
                 $('body').i18n();
-            }));
+            });
 
             var changeLangOpen = false;
 
