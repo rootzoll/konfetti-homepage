@@ -46,11 +46,16 @@
 	"howitworks-aftertext": "Let´s exchange Konfetti to enjoy the colours we all bring and share good times together.",
 
 	"app-headline": "Use the App",
-	"app-subline": "Become a member of the KonfettiCommunity",
+	"app-subline": "BETA-VERSION",
 	"app-pretext": "The app is in BETA – that’s why you can try the App on a desktop or mobile browser at the moment. We work on the option of installing the KonfettiApp simply on your smartphone from the app store and google play, which will be possible soon.",
-	"app-info": "Please get in contact if you want to start connecting activities. We will help you to set up a KonfettiParty for your local area.",
+	"app-info": "Please get in contact with us, if you want to start your own konfetti neighborhood.",
 	"app-try": "Try KonfettiApp",
-	"app-b-text": "Until the smartphone apps are ready and for places where internet is just available thru one community computer workplace, it is also possible to run the konfetti user interface just on a desktop or mobile browser directly. This will require an extra login step, but keeps member participation possible even if the techinal infrastructure is very basic in the neighborhood.",
+
+	"app-a-headline": "Smartphone",
+	"app-a-text": "Almost everybody in the neighborhood has a smartphone today. You dont need to check the Konfetti app everyday - Pushnotifications will let you know if something relevant is happening. Install the App, redeem your konfetti coupon and you are connected to your neighborhood.",
+
+	"app-b-headline": "Webbrowser",
+	"app-b-text": "The Konfetti App can also be used without a smartphone - simply start it in your browser. This will require an extra login step, but keeps member participation possible even if the techinal infrastructure is very basic in the neighborhood.",
 
 	"about-headline": "About Konfetti",
 	"about-a-headline": "Konfetti Vision",

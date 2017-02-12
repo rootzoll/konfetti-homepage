@@ -141,7 +141,7 @@ TODOS:
 			<!-- End text carousel intro section -->
 
 
-            <!-- Donation  -->
+            <!-- Video Player -->
             <section id="donation-section" class="page text-center" style="padding-bottom: 32px;">
 
                 <div class="rotate-box-2-wrapper">
@@ -149,26 +149,7 @@ TODOS:
                         <div class="row">
                             <div class="col-md-12 ">
 
-<script type="text/javascript">
-  /* Configure at https://www.betterplace.org/de/projects/50020-konfettiapp-fur-die-holzoma/manage/iframe_donation_form/new */
-  var _bp_iframe        = _bp_iframe || {};
-  _bp_iframe.project_id = 50020; /* REQUIRED */
-  _bp_iframe.lang       = 'de'; /* Language of the form */
-  _bp_iframe.width = 600; /* Custom iframe-tag-width, integer */
-  _bp_iframe.color = '6c9c2e'; /* Button and banderole color, hex without "#" */
-  _bp_iframe.background_color = 'ffffff'; /* Background-color, hex without "#" */
-  _bp_iframe.default_amount = 20; /* Donation-amount, integer 1-99 */
-  _bp_iframe.default_data_transfer_accepted = true; /* true (default), false */
-  _bp_iframe.recurring_interval = 'single'; /* Interval for recurring donations, string out of ["single", "monthly", "quarter_yearly", "half_yearly", "yearly"] */
-  _bp_iframe.bottom_logo = true;
-  (function() {
-    var bp = document.createElement('script'); bp.type = 'text/javascript'; bp.async = true;
-    bp.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'asset1.betterplace.org/assets/load_donation_iframe.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(bp, s);
-  })();
-</script>
-<div id="betterplace_donation_iframe" style="background: transparent url('https://www.betterplace.org/assets/new_spinner.gif') 275px 20px no-repeat;"><strong><a href="https://www.betterplace.org/de/projects/50020-konfettiapp-fur-die-holzoma/donations/new">Jetzt Spenden für „KonfettiApp für die HolzOMA“ bei unserem Partner betterplace.org</a></strong></div>
-
+                                <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/q6vzdTslNlA" frameborder="0" allowfullscreen></iframe></div>
 
                             </div>
                         </div>
@@ -245,32 +226,31 @@ TODOS:
 
             	<div class="container">
                 	<div class="row">
-
+                       <!--
                     	<div class="col-md-12 wow fadeIn" style="padding-bottom: 32px;" data-wow-delay="0.2s" >
                             <p data-i18n="app-pretext"  style="text-align: center;">...</p>
                         </div>
-
+               
                         <div class="col-md-12 wow fadeIn" style="padding-bottom: 32px;" data-wow-delay="0.2s">
                             <p data-i18n="app-info"  style="text-align: center;">...</p>
                         </div>
-
+               
                         <div class="col-md-12 wow fadeIn" data-wow-delay="0.2s" style="text-align: center;">
                         	<div class="cta-btn wow fadeIn" id='openDesktop' data-wow-delay="0.4s" style="vertical-align: middle: text-align: center; margin-top: 10px; padding-top:10px;">
                                 <a class="btn btn-default btn-lg rotate-box-icon-color-action" href="https://konfettiapp.de/app/index.html" target="_blank" role="button"><span data-i18n="app-try">Open App</span></a><br>
                             </div>
                         </div>
+                        -->
 
-                        <!--
-
-                                                	<div class="col-md-9 wow fadeIn" data-wow-delay="0.2s" style="text-align: center;">
+                        <div class="col-md-9 wow fadeIn" data-wow-delay="0.2s">
                             <h2><i class="fa fa-mobile" aria-hidden="true"></i> <span data-i18n="app-a-headline">Smartphone</span></h2>
                             <p data-i18n="app-a-text">...</p>
                         </div>
                         <div class="col-md-3 wow fadeIn" data-wow-delay="0.2s">
                         	<div class="cta-btn wow fadeIn" data-wow-delay="0.4s" style="vertical-align: middle: text-align: center; margin-top: 10px; min-height:100px;">
-                                <a class="btn btn-default btn-lg rotate-box-icon-color-action" href="javascript:alert('Android App needs update. Bookmark mobile browser version until then.');window.location.href ='http://konfettiapp.de/desktop.html'" target="_blank" role="button" style="background-color: #e6c5aa !important;"><span data-i18n="android">Android</span></a>
+                                <a class="btn btn-default btn-lg rotate-box-icon-color-action" href="https://play.google.com/store/apps/details?id=de.konfettiapp.app" target="_blank" role="button" style=""><span data-i18n="android">Android</span></a>
                                 <br>
-                        	    <a class="btn btn-default btn-lg rotate-box-icon-color-action" style="margin-top: 20px;background-color: #e6c5aa !important;" href="javascript:alert('iOS App not ready yet. Bookmark mobile browser version until then.');window.location.href ='http://konfettiapp.de/desktop.html'" target="_blank" role="button"><span data-i18n="iphone">iPhone</span></a><br>
+                        	    <a class="btn btn-default btn-lg rotate-box-icon-color-action" style="margin-top: 20px;background-color: #e6c5aa !important;" href="javascript:alert('For testing the iOS version please send an email to christian@konfettiapp.de to get an invite. thx.');" target="_blank" role="button"><span data-i18n="iphone">iPhone</span></a><br>
                             </div>
                         </div>
 
@@ -281,10 +261,9 @@ TODOS:
 
                         <div class="col-md-3 wow fadeIn" data-wow-delay="0.2s">
                         	<div class="cta-btn wow fadeIn" id='openDesktop' data-wow-delay="0.4s" style="vertical-align: middle: text-align: center; margin-top: 10px; min-height:100px">
-                                <a class="btn btn-default btn-lg rotate-box-icon-color-action" href="http://test.konfettiapp.de:2001/desktop.html" target="_blank" role="button"><span data-i18n="browserlogin">Browser Login</span></a><br>
+                                <a class="btn btn-default btn-lg rotate-box-icon-color-action" href="https://konfettiapp.de/app/index.html" target="_blank" role="button"><span data-i18n="browserlogin">Browser Login</span></a><br>
                             </div>
                         </div>
-                        -->
 
                     </div> <!-- /.row -->
                 </div> <!-- /.container -->
