@@ -1,8 +1,7 @@
 {
 	"@metadata": {
         "authors": [
-            "rootzoll",
-			"Ellen Smithee"
+            "rootzoll"
         ],
         "last-updated": "2016-08-16",
         "locale": "de",
@@ -20,6 +19,7 @@
  	"iphone": "iPhone",   
 	"newsletter": "Newsletter",
 	"facebook": "Facebook",
+	"browserlogin" : "Browser",
 
 	"welcomeslides-a-headline": "Karma für eine bessere Nachbarschaft",
 	"welcomeslides-a-button": "Wie es geht",
@@ -27,5 +27,55 @@
 	"welcomeslides-b-button": "KonfettiApp ausprobieren",
 	"welcomeslides-c-headline": "Mach mit",
 	"welcomeslides-c-button1": "Team",
-	"welcomeslides-c-button2": "Newsletter"
+	"welcomeslides-c-button2": "Newsletter",
+
+	"howitworks-headline": "So funktionierts",
+	"howitworks-subline": "Konfetti ist Karma für die Nachbarschaft - es ermöglicht Mitbestimmung und stiftet Gemeinschaft. Nutze die App um dich mit deiner Nachbarschaft zu verbinden.",
+	"howitworks-a-headline": "1. Konfetti verteilen",
+	"howitworks-a-text": "Melde Deine Nachbarschaft bei uns an. Drucke Konfetti-Papiergutscheine und wirf sie in die Briefkästen Deiner Nachbarschaft. Lege ein Infoblatt dazu das erklärt wie man die Konfetti App installiert und den Gutschein einlöst.",
+	"howitworks-b-headline": "2. Nachbarschafts-Abstimmung",
+	"howitworks-b-text": "Jetzt hat jeder Konfettipunkte und kann damit abstimmen, was einmal jemand für die Nachbarschaft tun sollte. Das Resultat ist eine gemeinschaftlich erstellte und geordnete ToDo-Liste was für eine bessere Nachbarschaft wichtig ist.",
+	"howitworks-c-headline": "3. Konfetti Kreislauf",
+	"howitworks-c-text": "Jeder der nun bei der Verwirklichung einer Idee mithilft, erhält als Belohnung die auf dieser Aufgabe ausgeschriebenen Konfettipunkte. Mit diesen Konfettis kann nun erneut abgestimmt werden.",
+	"howitworks-aftertext": "Es ist ein Konfettikreislauf. Lasst uns mit Konfetti die Nachbarschaft bunter machen und uns über Zusammenarbeit besser kennenlernen.",
+
+	"app-headline": "App Nutzen",
+	"app-subline": "BETA-VERSION",
+	"app-pretext": "Die App ist ein funktionaler Prototyp.",
+	"app-info": "Kontaktiert uns, wenn ihr eure eigenen Konfetti Nachbarschaft starten wollt.",
+	"app-try": "Konfetti App Ausprobieren",
+
+	"app-a-headline": "Smartphone",
+	"app-a-text": "Die App ist für das Smartphone und die Nebenbeinutzung konzipiert. Pushnotifications informieren den Nutzer über Neuigkeiten. Die App installieren, Konfetti Gutschein einlösen und man ist mit der Nachbarschaft vernetzt.",
+
+	"app-b-headline": "Webbrowser",
+	"app-b-text": "Die App läuft aber auch im Webbrowser und so lässt sich Konfetti auch ohne Smartphone nutzen.",
+
+	"about-headline": "Über Konfetti",
+	"about-a-headline": "Konfetti Vision",
+	"about-a-text1": "Mehr als 800.000 Geflüchtete sind 2015 in Deutschland angekommen. Diese neue Situation führt sowohl für die neu angekommen als auch für die alteingesessenen Nachbarn zu Unsicherheiten und Fragen.",
+	"about-a-text2": "Wir unterscheiden uns in vielerlei Hisicht voneinander: Wir sprechen verschiedene Sprachen und haben unterschiedliche Erfahrungen gesammelt. Diese Unterschiede können spannend sein, aber auch Unsicherheit schaffen und sogar Vorurteile schüren.",
+	"about-a-text3": "Mit unserer Initiative Konfetti4Change möchten wir dazu beitragen diese Vorurteile abzubauen: Durch persönliche Begegnungen auf Augenhöhe und gemeinsame Aktivitäten. Dafür kommt unsere neu entwickelte KonfettiApp zum Einsatz.",
+
+	"about-b-headline": "Wie kann eine App das leisten?",
+	"about-b-text1": "Die KonfettiApp dient Initiativen, Vereinen und Organisationen als Werkzeug zur Koordination des Engagements ihrer Nachbarschaften und bietet jedem Einzelnen einen einfachen Zugang zu neuen Nachbarn. Sie unterstützt dabei Nachbarschaften zu gestalten, sich zu begegnen und kennenzulernen. Sie hilft Aktivitäten zu planen, Menschen zu involvieren und Konfetti zu verteilen.",
+	"about-b-text2": "Du hast Lust neue Nachbarn willkommen zu heißen und zum Beispiel einen Sprachkurs anzubieten, aber keine Idee, wo dieser stattfinden könnte? Du bist gerade in einer Nachbarschaft angekommen und hast Lust gemeinsam mit deinen Nachbarn zu kochen, aber keine Idee, wie du Teilnehmer erreichen kannst?",
+	"about-b-text3": "Du arbeitest in einer Organisation im Bereich der Flüchtlingshilfe und bist auf der Suche nach einer Innovation, die dir die Organisation von Aktivitäten oder Veranstaltungen erleichtert?",
+	"about-b-text4": " Dann schreib uns eine Nachricht, um KonfettiApp starten zu können und aus einer Idee eine Aufgabe für die Nachbarschaft werden zu lassen.",
+
+	"about-c-headline": "Konfetti Ziel",
+	"about-c-text": "Wir wollen eine offene und freie App entwickeln, die Technik am laufen halten und anhand von Beispielen zeigen wie, man durch Konfetti die Gemeinschaft in der Nachbarschaft stärken und damit Integration befördern kann.",
+	"about-d-headline": "Konfetti Start",
+	"about-d-text": "Du willst Konfetti für deine Nachbarschaft? Bitte kontaktiere uns.",
+
+	"team-headline": "Machmit im Team",
+	"team-subline1": "Wir sind Konfetti4Change, ein Freiwilligenprojekt aus der Geflüchtetenhilfe in Berlin. Wir wollen Menschen verbinden, gemeinsame Erfahrungen schaffen und damit Vorurteile abbauen.",
+	"team-aftertext": "Folgt uns auf facebook und programmiert mit uns auf GitHub.",
+
+	"newsletter-headline": "Newsletter",
+	"newsletter-subline": "Bleibt über Konfetti informiert - abboniert unseren Newsletter.",
+
+	"partners-headline": "Unsere Partner",
+	"partners-subline": "Unser Vertrauens- und Unterstützernetzwerk."
+
 }

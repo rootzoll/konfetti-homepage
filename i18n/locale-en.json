@@ -31,19 +31,13 @@
 
 	"howitworks-headline": "How it works",
 	"howitworks-subline": "You may know Konfetti as small and colourful pieces of paper thrown at celebrations like on new years. Our Konfetti is karma for the neighbourhood - it empowers and connects people. And of course it is fun  and gives you a good time! The KonfettiApp connects you to your nearest neighborhood and manages your KonfettiKarma points. Use the app to earn and spend your Konfetti.",
-	"howitworks-a-headline": "1. Start the App",
-	"howitworks-a-text": "and get your Welcome-Konfetti by scanning the barcode or writing an Email.",
-	"howitworks-b-headline": "2. Create a new task",
-	"howitworks-b-text": "or find an existing Party to join in.",
-	"howitworks-c-headline": "3. Find people",
-	"howitworks-c-text": "who support your idea or event help directly.",
-	"howitworks-d-headline": "4. Spend Konfetti",
-	"howitworks-d-text": "for other people’s support and commitment or appreciate the engagement by sharing your Konfetti to great ideas.",
-	"howitworks-e-headline": "5. Get Konfetti",
-	"howitworks-e-text": "as a reward after participating in one neighborhood task.",
-	"howitworks-f-headline": "6. Make a wish",
-	"howitworks-f-text": "for something to be done. Its a circle.",
-	"howitworks-aftertext": "Let´s exchange Konfetti to enjoy the colours we all bring and share good times together.",
+	"howitworks-a-headline": "1. Spread Konfetti",
+	"howitworks-a-text": "Sign up your neighborhood with us. Print out Konfetti paper coupons and put them into your neighborhood mailboxes. Inlude a flyer to invite neighbors to redeem coupon by installing the Konfetti app.",
+	"howitworks-b-headline": "2. Let Neighbors Vote",
+	"howitworks-b-text": "Now with Konfetti everbody can wish what somebody should do for the neighborhood or vote on existing ideas. The result is a common ranked list of what is important for a better neighborhood.",
+	"howitworks-c-headline": "3. Start Konfetti Circle",
+	"howitworks-c-text": "Then if you help out on an idea from that list you get the Konfetti voted on that task as a reward. Now again you can vote whats important for a better neighborhood to you.",
+	"howitworks-aftertext": "Its a Konfetti cricle. Let´s exchange Konfetti to enjoy the colours we all bring and share good times together.",
 
 	"app-headline": "Use the App",
 	"app-subline": "BETA-VERSION",
@@ -79,6 +73,9 @@
 	"team-aftertext": "Follow us on facebook, code with us on github and check our calander for local meetups.",
 
 	"newsletter-headline": "Newsletter",
-	"newsletter-subline": "stay up to date - sign up for our newsletter"
+	"newsletter-subline": "stay up to date - sign up for our newsletter",
+
+	"partners-headline": "Our Partners",
+	"partners-subline": "trust and support network"
 
 }
